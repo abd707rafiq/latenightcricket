@@ -6,7 +6,7 @@ const groundSchema = new mongoose.Schema({
   facilities: [{ type: String }],
   price: { type: Number, required: true },
   contactInfo: { type: String, required: true },
-  manager: { type: mongoose.Schema.Types.ObjectId, ref: 'User' }
+ 
 });
 
  const Ground= mongoose.model('Ground', groundSchema);
