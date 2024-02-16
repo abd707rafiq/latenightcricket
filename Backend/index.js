@@ -6,6 +6,7 @@ const mongoose=require('mongoose');
 
 const authRouter =require("./routes/Auth") 
 const addGround=require("./routes/Ground")
+const addBooking=require('./routes/Booking');
 
 
 
@@ -26,6 +27,7 @@ app.use(express.json());
 
 app.use('/',authRouter);
 app.use('/',addGround);
+app.use('/',addBooking);
 
 
 
