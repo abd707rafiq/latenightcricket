@@ -11,7 +11,7 @@ const addBooking=require('./routes/Booking');
 
 
 
-mongoose.connect("mongodb+srv://abdullahrafiq273:UC09l18sbqLWV4A7@cluster0.oyz9wbw.mongodb.net/")
+mongoose.connect("")
 .then(()=>{
     console.log("server is connected to database")
     
